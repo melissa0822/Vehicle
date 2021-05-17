@@ -103,7 +103,7 @@ while(make_vehicle):# loop that will takes user input
     make_vehicle,garage=vehicle_menu(option,garage)
 #printing vehicle details
 print("Vehicles Details is :")
-print("---------------------------")
+print("----------------------------")
 for v in garage:
     details=v.printDetails()#calling printDetails method
     for key,value in details.items():
